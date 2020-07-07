@@ -14,7 +14,7 @@ print(f"{numero} x 10 =", numero*10)
 #Conversor de dolar
 din = float(input("Quanto dinheiro você possui?"))
 con = din/3.27
-print(f"Você pode comprar:{con}")
+print(f"Você pode comprar:{con:.2} dolares")
 
 #Area da parede
 larg = float(input("Largura da parede:"))
@@ -26,7 +26,7 @@ print(f"É necessario {pint} litros de tinta para pintar toda a parede")
 
 #Desconto
 preco = float(input("Preço do produto:"))
-desc = preco + (0.05 * preco)
+desc = preco - (0.05 * preco)
 print(f"Preço com o desconto: {desc}")
 
 #Salario
@@ -37,4 +37,10 @@ print(f"Novo salario:{reaj}")
 #Conversor de temperatura(C > F)
 cel = float(input("Temperatura em Celsius:"))
 far = (cel * (9/5)) + 32
-print(f"Temperatura fahrenheit: {far}")
+print(f"Temperatura fahrenheit: {far:.2}")
+
+#Aluguel de carro
+dias = int(input("Dias com o carro alugado:"))
+dist = float(input("KM rodados:"))
+valor = (60 * dias) + (0.15 * dist)
+print(f"Preço a ser pago:{valor:.2f}")

@@ -34,7 +34,7 @@ salario = float(input("Salario atual:"))
 reaj = salario + (0.15 * salario)
 print(f"Novo salario:{reaj}")
 
-# Conversor de temperatura(C > F)
+# Conversor de temperatura(C para F)
 cel = float(input("Temperatura em Celsius:"))
 far = (cel * (9 / 5)) + 32
 print(f"Temperatura fahrenheit: {far:.2}")

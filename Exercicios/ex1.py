@@ -1,2 +1,2 @@
-#1-Codigo para escrever uma saudação
+#1-Codigo para escrever uma saudação:
 print("Ola, mundo")

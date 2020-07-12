@@ -1,2 +1,4 @@
 #1-Codigo para escrever uma saudação:
-print("Ola, mundo!")
+# \033[m é para acrescentar cor no print
+print("\033[31m Ola, mundo!")
+

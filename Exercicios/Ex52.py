@@ -1,7 +1,14 @@
 # Numero Primo
-for c in range(1, 6):
-    num = int(input("Diga-me um numero:"))
-    if (num % 2 == 1) or num == 2:
-        print("Número primo")
+s = 0
+num = int(input('Diga-me um numero: '))
+for c in range(1, num + 1):
+    if num % c == 0:
+        print("\033[31m", end=" ")
+        s = s + 1
     else:
-        print("Não é primo")
+        print("\033[30m", end=" ")
+    print(c, end=" ")
+if s == 2:
+        print(f"{num} NÚMERO PRIMO")
+else:
+        print(f"{num} NÃO É PRIMO")

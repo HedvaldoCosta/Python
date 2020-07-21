@@ -1,7 +1,7 @@
 # Usando for
 f = 1
 n = int(input('Me diga um numero: '))
-print(f'{n}! = ')
+print(f'{n}! = ', end=' ')
 for c in range(n, 0, -1):
     f = f * c
     print(f'{c}', end=' ')

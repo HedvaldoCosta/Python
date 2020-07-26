@@ -1,3 +1,4 @@
+#Soma com flag
 s = c = 0
 while True:
     num = int(input('Me diga um numero[999 para sair]: '))

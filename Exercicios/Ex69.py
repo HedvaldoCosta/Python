@@ -1,5 +1,4 @@
 #Lendo dados
-
 c18 = cm = cf = 0
 while True:
     idade = int(input('Idade: '))

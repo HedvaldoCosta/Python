@@ -13,7 +13,7 @@ while resp == 'S':
     elif num < menor:
         menor = num
     resp = str(input('Quer continuar? [S/N]')).upper().strip()[0]
-print(f'Você digitou {c} números e a Média entre eles é: {soma/c}')
+print(f'Você digitou {c} números e a Média entre eles é: {soma/c:.2f}')
 print(f'Maior numero: {maior}')
 print(f'Menor numero: {menor}')
 

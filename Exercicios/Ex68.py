@@ -4,7 +4,9 @@ s = c = 0
 while True:
     valor = int(input('Me diga um valor: '))
     rand = randint(0, 10)
-    opc = str(input('[\033[36mP\033[m] para par e [\033[31mI\033[m] para impar: ')).upper().strip()[0]
+    opc = ' '
+    while opc not in 'PI':
+        opc = str(input('[\033[36mP\033[m] para par e [\033[31mI\033[m] para impar: ')).upper().strip()[0]
     if opc == 'P':
         s = rand + valor
         if s % 2 == 0:

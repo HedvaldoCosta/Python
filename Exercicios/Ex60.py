@@ -1,4 +1,5 @@
 #60-fatorial
+from math import factorial
 num = int(input('Diga-me um numero: '))
 cont = num
 mult = 1
@@ -21,4 +22,8 @@ for c in range(n, 0, -1):
     print('X' if c > 1 else ' = ', end=' ')
 print(f)
 
+OU
+
+numero = int(input('Me diga um numero: '))
+print(factorial(numero))
 

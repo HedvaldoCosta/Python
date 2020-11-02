@@ -1,16 +1,8 @@
-#Jogo da adivinhação
-from random import randint
-c = 0
-aleat = randint(1, 10)
-numero = 11
-while aleat != numero:
-    numero = int(input('Adivinhe que número estou pensando [ Entre 1 e 10 ]: '))
-    c = c + 1
-    if numero == aleat:
-        print(f'Você acertou! Eu pensei no numero {aleat}')
+n = 0
+while True:
+    n = n + 1
+    resposta = str(input('Deseja iniciar?'))
+    if resposta == 's':
+        print(f'P({n}) = {n/(n + 1):.2f}')
     else:
-        if numero < aleat:
-            print('Numero abaixo do que eu pensei...')
-        if numero > aleat:
-            print('Numero acima do que eu pensei...')
-print(f'Numero de tentativas:{c}')
+        break

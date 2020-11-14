@@ -1,0 +1,90 @@
+Resumo feito se baseando em (https://www.youtube.com/watch?v=g8rGoKDDIEc) e (https://www.youtube.com/watch?v=-EXtHkVEV14)
+
+
+#Listas em Python:
+Listas são sequências mutáveis sempre podendo aumentar ou diminuir com cada valor sendo identificado por um índice.
+
+--> Criando uma lista:
+Para criar uma lista pode-se usar tanto lista = [] quanto lista = list().
+
+--> Concatenação:
+lista1 + lista2
+Sendo lista1 = [1, 2, 3, 4, 5] e lista2 = [6, 7, 8] 
+lista1 + lista2 = [1, 2, 3, 4, 5, 6, 7, 8]
+
+--> Repetição:
+lista * 3
+Sendo lista = ['oi']
+lista * 3 = ['oi', 'oi', 'oi']
+
+--> Verificar a existência de um item:
+n in lista verifica se existe o item dentro da lista
+Sendo lista = [120, 0, 45, 99, 2]
+45 in lista = True
+12 in lista = False
+
+--> Iteração:
+Sendo lista = [1, 2, 3, 4, 5]
+for X in lista:
+  print(X * 2) (irá mostrar o dobro de cada item da lista)
+
+--> Acrescentando itens:
+Com o uso do método append podemos adicionar itens à lista
+Sendo lista = [234, 445, 774, 29]
+lista.append(12)
+minha lista passar a ser: lista = [234, 445, 774, 29, 12]
+
+--> Acrescentando itens em posições específicas:
+lista.insert(posição, item)
+Sendo lista = [1, 1, 2, 3, 5]
+lista.insert(0, 0) irá adicionar o item 0 na posição 0
+lista = [0, 1, 1, 2, 3, 5]
+
+--> Buscando a posição de um item qualquer:
+lista.index(item)
+sendo lista = ['olá', 45, 123, 321]
+lista.index('olá')
+Irá demonstrar que o item está na posição 0
+
+--> Contando a quantidade do mesmo item:
+lista.count(item)
+Sendo lista = [3, 4, 2, 3, 5]
+lista.count(3) Demonstrará quantas vezes o número 3 apareceu na lista
+Número de vezes = 2
+lista.count(5)
+número de vezes = 1
+
+--> Ordenando listas:
+Método sort()
+Sendo lista = [4, 3, 5, 12, 10]
+lista.sort()
+lista = [3, 4, 5, 10, 12]
+
+--> Revertendo uma lista:
+Método reverse()
+Sendo lista = [1, 2, 3, 4, 5]
+lista.reverse()
+lista = [5, 4, 3, 2, 1]
+
+--> Removendo um item da lista:
+Método remove(item)
+Sendo lista = [34, 32, 24, 33]
+lista.remove(33)
+lista = [34, 32, 24]
+
+--> Removendo item de acordo com a posição:
+Método pop(posição)
+Sendo lista = [2, 5, 6, 12]
+lista.pop(1)
+lista = [2, 6, 12]
+
+--> Mudando itens de uma lista:
+lista[posição] = item
+Sendo lista = [0, 1, 2, 4]
+lista[3] = 3
+lista = [0, 1, 2, 3]
+
+--> Tamanho da lista:
+len(x)
+Sendo lista = [1, 11, 111, 1111]
+len(lista) = 4

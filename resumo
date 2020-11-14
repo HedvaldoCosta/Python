@@ -53,3 +53,38 @@ lista.count(3) Demonstrará quantas vezes o número 3 apareceu na lista
 Número de vezes = 2
 lista.count(5)
 número de vezes = 1
+
+--> Ordenando listas:
+Método sort()
+Sendo lista = [4, 3, 5, 12, 10]
+lista.sort()
+lista = [3, 4, 5, 10, 12]
+
+--> Revertendo uma lista:
+Método reverse()
+Sendo lista = [1, 2, 3, 4, 5]
+lista.reverse()
+lista = [5, 4, 3, 2, 1]
+
+--> Removendo um item da lista:
+Método remove(item)
+Sendo lista = [34, 32, 24, 33]
+lista.remove(33)
+lista = [34, 32, 24]
+
+--> Removendo item de acordo com a posição:
+Método pop(posição)
+Sendo lista = [2, 5, 6, 12]
+lista.pop(1)
+lista = [2, 6, 12]
+
+--> Mudando itens de uma lista:
+lista[posição] = item
+Sendo lista = [0, 1, 2, 4]
+lista[3] = 3
+lista = [0, 1, 2, 3]
+
+--> Tamanho da lista:
+len(x)
+Sendo lista = [1, 11, 111, 1111]
+len(lista) = 4

@@ -1,9 +1,9 @@
-Resumo feito se baseando em (https://www.youtube.com/watch?v=g8rGoKDDIEc)
+Resumo feito se baseando em (https://www.youtube.com/watch?v=g8rGoKDDIEc) e (https://www.youtube.com/watch?v=-EXtHkVEV14)
 
-Iteração é a repetição de um conjunto de instruções
 
 #Listas em Python:
-Listas são sequências mutáveis sempre podendo aumentar ou diminuir.
+Listas são sequências mutáveis sempre podendo aumentar ou diminuir com cada valor sendo identificado por um índice.
+
 --> Criando uma lista:
 Para criar uma lista pode-se usar tanto lista = [] quanto lista = list().
 

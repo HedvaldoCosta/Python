@@ -92,4 +92,6 @@ len(lista) = 4
 --> Copiando listas:
 lista_a = lista_b[:]
 lista_a = [3, 45, 12]
+lista_b = lista_a[:]
+lista_b = [3, 45, 12]
 

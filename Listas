@@ -1,4 +1,4 @@
-Resumo feito se baseando em (https://www.youtube.com/watch?v=g8rGoKDDIEc) e (https://www.youtube.com/watch?v=-EXtHkVEV14)
+Resumo feito baseando-se em (https://www.youtube.com/watch?v=g8rGoKDDIEc) e (https://www.youtube.com/watch?v=-EXtHkVEV14)
 
 
 #Listas em Python:
@@ -88,3 +88,8 @@ lista = [0, 1, 2, 3]
 len(x)
 Sendo lista = [1, 11, 111, 1111]
 len(lista) = 4
+
+--> Copiando listas:
+lista_a = lista_b[:]
+lista_a = [3, 45, 12]
+

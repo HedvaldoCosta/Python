@@ -13,6 +13,14 @@ def esco():
         escolha = int(input('''[0] continuar
 [1] sair
 '''))
+        while escolha not in numeros:
+            escolha = int(input('''[0] continuar
+[1] sair
+'''))
+        while escolha == 0:
+            esco()
+        if escolha == 1:
+            exit()
 
 
 #Código pricipal
@@ -22,23 +30,8 @@ while True:
         print('ACESSO NEGADO')
         break
     else:
-        senha_registro = int(input('Senha:  '))
-        if senha_registro == senha:
-            print('ACESSO PERMITIDO')
-            exit()
-        elif senha_registro != senha:
-            print('Senha incorreta!')
-            escolha = int(input('''[0] continuar
-[1] sair
-'''))
-            while escolha not in numeros:
-                escolha = int(input('''[0] continuar
-[1] sair
-'''))
-            while escolha == 0:
-                esco()
-            if escolha == 1:
-                break
+        esco()
+
 
 
 

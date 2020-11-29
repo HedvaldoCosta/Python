@@ -1,4 +1,4 @@
-#!C:\Users\Edinh\OneDrive\Documentos\MeusProjetos\Python\Python\Projeto_Teste\venv\Scripts\python.exe
+#!C:\Users\Edinh\OneDrive\Documentos\MeusProjetos\Python\Python\Projeto_Robo\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==40.8.0','console_scripts','easy_install'
 __requires__ = 'setuptools==40.8.0'
 import re
